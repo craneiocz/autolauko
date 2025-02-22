@@ -3,150 +3,157 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Auto Laukó - Servis vozidel</title>
+    <title>Auto Lauko - Profesionální Autoservis</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
-            margin: 0;
             font-family: 'Roboto', sans-serif;
             background-color: #1a1a1a;
-            color: #fff;
+            color: #e0e0e0;
+            margin: 0;
+            padding: 0;
         }
         header {
-            background: url('garage.jpg') no-repeat center center/cover;
-            height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            position: relative;
-        }
-        header::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.6);
-        }
-        header .content {
-            position: relative;
+            background-color: #000;
+            padding: 20px;
             text-align: center;
+            box-shadow: 0px 4px 8px rgba(255, 221, 0, 0.5);
         }
         header h1 {
-            font-size: 3rem;
-            color: #fdd835;
-            margin-bottom: 1rem;
-        }
-        header p {
-            font-size: 1.5rem;
-            margin-bottom: 2rem;
-        }
-        header a {
-            background-color: #fdd835;
-            color: #1a1a1a;
-            padding: 0.75rem 1.5rem;
-            text-decoration: none;
-            font-weight: bold;
-            border-radius: 5px;
-            transition: background 0.3s;
-        }
-        header a:hover {
-            background-color: #ffc400;
-        }
-        section {
-            padding: 4rem 2rem;
-        }
-        .services {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-        }
-        .service {
-            flex: 1 1 calc(33% - 2rem);
-            margin: 1rem;
-            background-color: #2a2a2a;
-            padding: 1.5rem;
-            border-radius: 8px;
-            text-align: center;
-            transition: transform 0.3s;
-        }
-        .service:hover {
-            transform: translateY(-5px);
-        }
-        .service h3 {
-            color: #fdd835;
-            margin-bottom: 1rem;
-        }
-        footer {
-            background-color: #111;
-            padding: 2rem;
-            text-align: center;
-        }
-        footer p {
+            color: #ffdd00;
+            font-size: 2.5em;
             margin: 0;
         }
-        .contact-info {
-            margin-top: 1rem;
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
         }
-        .contact-info a {
-            color: #fdd835;
+        h2 {
+            color: #ffdd00;
+            border-bottom: 2px solid #ffdd00;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+        }
+        .services, .pricing, .testimonials {
+            margin-bottom: 40px;
+        }
+        .service-item, .pricing-item, .testimonial-item {
+            background-color: #2a2a2a;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .service-item i, .pricing-item i {
+            color: #ffdd00;
+            margin-right: 10px;
+        }
+        .pricing-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .pricing-item span {
+            font-weight: bold;
+            color: #ffdd00;
+        }
+        .testimonial-item {
+            font-style: italic;
+            border-left: 4px solid #ffdd00;
+        }
+        .testimonial-item p {
+            margin: 0;
+        }
+        .testimonial-item .author {
+            text-align: right;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .contact {
+            text-align: center;
+            padding: 20px;
+            background-color: #000;
+            color: #ffdd00;
+        }
+        .contact a {
+            color: #ffdd00;
             text-decoration: none;
         }
-        .qr-code {
-            margin-top: 1rem;
+        .contact a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
     <header>
-        <div class="content">
-            <h1>Auto Laukó</h1>
-            <p>Profesionální servis pro vaše vozidlo</p>
-            <a href="#services">Zjistěte více</a>
-        </div>
+        <h1>Auto Lauko - Profesionální Autoservis</h1>
     </header>
-
-    <section id="services">
-        <h2 style="text-align: center; color: #fdd835;">Naše Služby</h2>
-        <div class="services">
-            <div class="service">
-                <h3>Servis vozidel</h3>
-                <p>Kvalitní opravy a údržba vašeho vozu.</p>
+    <div class="container">
+        <section class="services">
+            <h2>Naše Služby</h2>
+            <div class="service-item">
+                <i class="fas fa-tools"></i>
+                <strong>Servis vozidel</strong>
+                <p>Komplexní údržba a opravy pro všechny značky a modely vozidel. Naši zkušení technici zajistí, že váš vůz bude v perfektním stavu.</p>
             </div>
-            <div class="service">
-                <h3>Přípravy na STK</h3>
-                <p>Připravíme váš vůz na technickou kontrolu.</p>
+            <div class="service-item">
+                <i class="fas fa-clipboard-check"></i>
+                <strong>Příprava na STK</strong>
+                <p>Pečlivá kontrola a příprava vašeho vozidla na státní technickou kontrolu, aby prošlo bez problémů a vy jste měli klid na cestách.</p>
             </div>
-            <div class="service">
-                <h3>Moderní diagnostika</h3>
-                <p>Pokročilé diagnostické služby pro vaše auto.</p>
+            <div class="service-item">
+                <i class="fas fa-laptop-code"></i>
+                <strong>Moderní diagnostika</strong>
+                <p>Používáme nejnovější diagnostické nástroje k rychlému a přesnému odhalení a řešení problémů vašeho vozidla.</p>
             </div>
-            <div class="service">
-                <h3>Pneuservis</h3>
-                <p>Kompletní péče o vaše pneumatiky.</p>
+            <div class="service-item">
+                <i class="fas fa-tire"></i>
+                <strong>Pneuservis</strong>
+                <p>Nabízíme výměnu, vyvážení a opravy pneumatik, abyste měli jistotu bezpečné jízdy za všech podmínek.</p>
             </div>
-            <div class="service">
-                <h3>Klimatizace</h3>
-                <p>Údržba a oprava klimatizace.</p>
+            <div class="service-item">
+                <i class="fas fa-snowflake"></i>
+                <strong>Servis klimatizace</strong>
+                <p>Údržba a opravy klimatizačních systémů pro zajištění optimálního komfortu ve vašem vozidle po celý rok.</p>
             </div>
-            <div class="service">
-                <h3>Montáž tažných zařízení</h3>
-                <p>Profesionální instalace tažných zařízení.</p>
+            <div class="service-item">
+                <i class="fas fa-trailer"></i>
+                <strong>Montáž tažných zařízení</strong>
+                <p>Profesionální instalace tažných zařízení pro všechny typy vozidel, včetně potřebné dokumentace a homologace.</p>
             </div>
-        </div>
-    </section>
-
-    <footer>
-        <p>&copy; 2024 Auto Laukó</p>
-        <div class="contact-info">
-            <p>Telefon: <a href="tel:+420777801118">+420 777 801 118</a></p>
-            <p>Email: <a href="mailto:servis@autolauko.cz">servis@autolauko.cz</a></p>
-            <p>Web: <a href="https://www.autolauko.cz">www.autolauko.cz</a></p>
-        </div>
-        <div class="qr-code">
-            <img src="qr-code-placeholder.png" alt="QR kód" width="100">
-        </div>
-    </footer>
-</body>
-</html>
+        </section>
+        <section class="pricing">
+            <h2>Ceník Služeb</h2>
+            <div class="pricing-item">
+                <div>
+                    <i class="fas fa-tools"></i>
+                    <strong>Hodinová sazba za servisní práce</strong>
+                </div>
+                <span>600 Kč/hod</span>
+            </div>
+            <div class="pricing-item">
+                <div>
+                    <i class="fas fa-clipboard-check"></i>
+                    <strong>Příprava a zajištění STK</strong>
+                </div>
+                <span>1 500 Kč</span>
+            </div>
+            <div class="pricing-item">
+                <div>
+                    <i class="fas fa-laptop-code"></i>
+                    <strong>Diagnostika motoru</strong>
+                </div>
+                <span>800 Kč</span>
+            </div>
+            <div class="pricing-item">
+                <div>
+                    <i class="fas fa-tire"></i>
+                    <strong>Výměna pneumatik (sada 4 ks)</strong>
+                </div>
+                <span>1 000 Kč</span>
+            </div>
+            <div
+::contentReference[oaicite:0]{index=0}
+ 
