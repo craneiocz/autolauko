@@ -31,7 +31,7 @@ const Hero = () => {
           {/* Right side - Modern Logo and Services */}
           <div className="space-y-10 animate-slide-up">
             {/* Logo Section */}
-            <div className="text-center lg:text-left space-y-6">
+            <div className="text-center lg:text-left space-y-8">
               <div className="relative">
                 <h1 className="text-7xl lg:text-8xl font-black text-primary text-glow leading-none">
                   AUTO
@@ -42,13 +42,29 @@ const Hero = () => {
                 <div className="absolute -top-2 -right-8 w-20 h-1 bg-primary rounded-full animate-glow-pulse" />
               </div>
               
-              <div className="bg-gradient-to-r from-primary/20 via-primary/10 to-transparent p-6 rounded-2xl border border-primary/20">
-                <p className="text-xl text-card-foreground font-medium">
-                  Profesionální autoservis s moderním vybavením
-                </p>
-                <p className="text-muted-foreground mt-2">
-                  ✓ Rychlé termíny  ✓ Férové ceny  ✓ Osobní přístup
-                </p>
+              <div className="relative overflow-hidden rounded-2xl border border-primary/30 bg-gradient-to-br from-card/80 via-card/60 to-transparent backdrop-blur-sm">
+                <div className="absolute inset-0 bg-gradient-to-r from-primary/5 via-transparent to-primary/5" />
+                <div className="relative p-8 space-y-6">
+                  <div className="text-center">
+                    <h2 className="text-2xl font-bold text-card-foreground mb-4">
+                      Profesionální autoservis s moderním vybavením
+                    </h2>
+                    <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                      <div className="flex items-center gap-3 p-3 rounded-lg bg-primary/10 border border-primary/20">
+                        <Check className="w-5 h-5 text-primary flex-shrink-0" />
+                        <span className="text-card-foreground font-medium">Rychlé termíny</span>
+                      </div>
+                      <div className="flex items-center gap-3 p-3 rounded-lg bg-primary/10 border border-primary/20">
+                        <Check className="w-5 h-5 text-primary flex-shrink-0" />
+                        <span className="text-card-foreground font-medium">Férové ceny</span>
+                      </div>
+                      <div className="flex items-center gap-3 p-3 rounded-lg bg-primary/10 border border-primary/20">
+                        <Check className="w-5 h-5 text-primary flex-shrink-0" />
+                        <span className="text-card-foreground font-medium">Osobní přístup</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
 
@@ -94,18 +110,11 @@ const Hero = () => {
                 <div className="flex flex-col sm:flex-row gap-3 w-full lg:w-auto">
                   <Button 
                     size="lg" 
-                    className="bg-primary hover:bg-accent text-primary-foreground font-semibold animate-glow-pulse group"
+                    className="bg-primary hover:bg-accent text-primary-foreground font-semibold animate-glow-pulse group cursor-pointer"
                   >
                     <Phone className="w-4 h-4 mr-2" />
                     +420 777 801 118
                     <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
-                  </Button>
-                  <Button 
-                    variant="outline" 
-                    size="lg" 
-                    className="border-primary/30 text-primary hover:bg-primary/10 hover:border-primary/50"
-                  >
-                    Cenová nabídka
                   </Button>
                 </div>
               </div>

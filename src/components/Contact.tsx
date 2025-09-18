@@ -66,8 +66,8 @@ const Contact = () => {
                   <div>
                     <div className="font-medium text-card-foreground">Adresa</div>
                     <div className="text-muted-foreground">
-                      Průmyslová 123<br />
-                      150 00 Praha 5
+                      Mírová 795/40<br />
+                      61800 Brno-Černovice, Czechia
                     </div>
                   </div>
                 </div>
@@ -89,11 +89,8 @@ const Contact = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button className="bg-primary hover:bg-accent text-primary-foreground font-semibold">
+              <Button className="bg-primary hover:bg-accent text-primary-foreground font-semibold cursor-pointer">
                 Objednat termín
-              </Button>
-              <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">
-                Nezávazná cenová nabídka
               </Button>
             </div>
           </div>
@@ -103,14 +100,17 @@ const Contact = () => {
             <h3 className="text-2xl font-semibold text-card-foreground mb-6">
               Kde nás najdete
             </h3>
-            <div className="bg-muted rounded-lg h-[400px] flex items-center justify-center">
-              <div className="text-center">
-                <MapPin className="w-16 h-16 text-primary mx-auto mb-4" />
-                <p className="text-muted-foreground">
-                  Interaktivní mapa autoservisu<br />
-                  Průmyslová 123, Praha 5
-                </p>
-              </div>
+            <div className="bg-muted rounded-lg h-[400px] overflow-hidden">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2604.8951194395787!2d16.659347776449873!3d49.175850771382965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47129450e7c31ccf%3A0x8e8b8b8b8b8b8b8b!2zTcOtcm92w6EgNzk1LzQwLCA2MTggMDAgQnJuby3EjGVybm92aWNlLCBDemVjaGlh!5e0!3m2!1sen!2scz!4v1679123456789!5m2!1sen!2scz"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen={true}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="AUTO LAUKO - Mírová 795/40, Brno-Černovice"
+              />
             </div>
           </div>
         </div>
