@@ -2,37 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
-/* AUTO LAKÓ Design System - Modern automotive service inspired by clean garage aesthetics */
+/* AUTO LAKÓ Design System - Modern automotive service with dark theme and yellow accents */
 
 @layer base {
   :root {
-    /* Primary brand colors - Clean white background with dark accents */
-    --background: 0 0% 98%;
-    --foreground: 220 13% 18%;
+    /* Primary brand colors - Dark professional with yellow accents */
+    --background: 0 0% 3%;
+    --foreground: 0 0% 95%;
 
     /* Card and surface colors */
-    --card: 0 0% 100%;
-    --card-foreground: 220 13% 18%;
+    --card: 0 0% 8%;
+    --card-foreground: 0 0% 95%;
 
     /* Popover colors */
-    --popover: 0 0% 100%;
-    --popover-foreground: 220 13% 18%;
+    --popover: 0 0% 8%;
+    --popover-foreground: 0 0% 95%;
 
-    /* Primary brand color - Professional blue accent */
-    --primary: 220 91% 50%;
-    --primary-foreground: 0 0% 98%;
+    /* Primary yellow accent - AUTO LAKÓ brand color */
+    --primary: 48 100% 50%;
+    --primary-foreground: 0 0% 5%;
 
-    /* Secondary modern gray tones */
-    --secondary: 220 14% 96%;
-    --secondary-foreground: 220 13% 18%;
+    /* Secondary gray tones */
+    --secondary: 0 0% 15%;
+    --secondary-foreground: 0 0% 85%;
 
     /* Muted elements */
-    --muted: 220 14% 96%;
-    --muted-foreground: 220 8% 46%;
+    --muted: 0 0% 12%;
+    --muted-foreground: 0 0% 65%;
 
     /* Accent variations */
-    --accent: 220 91% 45%;
-    --accent-foreground: 0 0% 98%;
+    --accent: 48 100% 45%;
+    --accent-foreground: 0 0% 5%;
 
     /* Status colors */
     --destructive: 0 84% 60%;
@@ -42,21 +42,21 @@
     --success-foreground: 0 0% 98%;
 
     /* Border and input */
-    --border: 220 13% 91%;
-    --input: 220 13% 91%;
-    --ring: 220 91% 50%;
+    --border: 0 0% 20%;
+    --input: 0 0% 15%;
+    --ring: 48 100% 50%;
 
     /* Design tokens */
     --radius: 0.75rem;
 
-    /* Modern gradients inspired by clean garage lighting */
-    --gradient-primary: linear-gradient(135deg, hsl(220 91% 50%), hsl(220 91% 45%));
-    --gradient-hero: linear-gradient(135deg, hsl(0 0% 98%) 0%, hsl(220 14% 96%) 50%, hsl(0 0% 98%) 100%);
-    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(220 14% 96%));
+    /* Modern gradients with dark theme */
+    --gradient-primary: linear-gradient(135deg, hsl(48 100% 50%), hsl(45 100% 45%));
+    --gradient-hero: linear-gradient(135deg, hsl(0 0% 5%) 0%, hsl(0 0% 8%) 50%, hsl(0 0% 5%) 100%);
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 8%), hsl(0 0% 12%));
 
-    /* Clean professional shadows */
-    --shadow-glow: 0 0 30px hsl(220 91% 50% / 0.2);
-    --shadow-card: 0 10px 25px -3px hsl(220 8% 46% / 0.1), 0 4px 6px -2px hsl(220 8% 46% / 0.05);
+    /* Shadows with yellow glow */
+    --shadow-glow: 0 0 30px hsl(48 100% 50% / 0.3);
+    --shadow-card: 0 10px 25px -3px hsl(0 0% 0% / 0.3), 0 4px 6px -2px hsl(0 0% 0% / 0.05);
 
     /* Animation timing */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -91,7 +91,7 @@
   }
 
   .text-glow {
-    text-shadow: 0 0 20px hsl(220 91% 50% / 0.3);
+    text-shadow: 0 0 20px hsl(48 100% 50% / 0.5);
   }
 
   .service-item {
@@ -146,10 +146,10 @@
 
 @keyframes glowPulse {
   0%, 100% {
-    box-shadow: 0 0 20px hsl(220 91% 50% / 0.3);
+    box-shadow: 0 0 20px hsl(48 100% 50% / 0.3);
   }
   50% {
-    box-shadow: 0 0 40px hsl(220 91% 50% / 0.5);
+    box-shadow: 0 0 40px hsl(48 100% 50% / 0.6);
   }
 }
 
