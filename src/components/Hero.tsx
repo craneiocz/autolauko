@@ -1,6 +1,6 @@
 import { Check, Wrench, Shield, Gauge, Snowflake, Truck, Car, ArrowRight, Phone } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import heroImage from '@/assets/hero-garage-new.jpg';
+import heroImage from '@/assets/hero-garage-modern.jpg';
 
 const services = [
   { icon: Wrench, text: 'Servis vozidel' },
@@ -33,11 +33,11 @@ const Hero = () => {
             {/* Logo Section */}
             <div className="text-center lg:text-left space-y-8">
               <div className="relative">
-                <h1 className="text-7xl lg:text-8xl font-black text-primary text-glow leading-none">
+                <h1 className="text-7xl lg:text-8xl font-black text-primary text-glow leading-none font-['Orbitron']">
                   AUTO
                 </h1>
-                <h1 className="text-7xl lg:text-8xl font-black text-foreground leading-none -mt-4">
-                  LAUKO
+                <h1 className="text-7xl lg:text-8xl font-black text-foreground leading-none -mt-4 font-['Orbitron']">
+                  LAKÓ
                 </h1>
                 <div className="absolute -top-2 -right-8 w-20 h-1 bg-primary rounded-full animate-glow-pulse" />
               </div>
