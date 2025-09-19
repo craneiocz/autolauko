@@ -1,6 +1,6 @@
 import { Check, Wrench, Shield, Gauge, Snowflake, Truck, Car, ArrowRight, Phone } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import heroImage from '@/assets/hero-garage-new.jpg';
+import heroImage from '@/assets/hero-garage-modern.jpg';
 
 const services = [
   { icon: Wrench, text: 'Servis vozidel' },
@@ -33,11 +33,11 @@ const Hero = () => {
             {/* Logo Section */}
             <div className="text-center lg:text-left space-y-8">
               <div className="relative">
-                <h1 className="text-7xl lg:text-8xl font-black text-primary text-glow leading-none">
+                <h1 className="text-7xl lg:text-8xl font-black text-primary text-glow leading-none font-['Orbitron']">
                   AUTO
                 </h1>
-                <h1 className="text-7xl lg:text-8xl font-black text-foreground leading-none -mt-4">
-                  LAUKO
+                <h1 className="text-7xl lg:text-8xl font-black text-foreground leading-none -mt-4 font-['Orbitron']">
+                  LAKÓ
                 </h1>
                 <div className="absolute -top-2 -right-8 w-20 h-1 bg-primary rounded-full animate-glow-pulse" />
               </div>
@@ -49,6 +49,13 @@ const Hero = () => {
                     <h2 className="text-2xl font-bold text-card-foreground mb-4">
                       Profesionální autoservis s moderním vybavením
                     </h2>
+                    <p className="text-muted-foreground mb-6 text-lg leading-relaxed">
+                      V AUTO LAKÓ nabízíme komplexní služby pro váš automobil v Brně-Černovicích. 
+                      Specializujeme se na servis všech značek vozidel, diagnostiku moderních motorů, 
+                      přípravu na STK a technické prohlídky. Naše dílna je vybavena nejmodernějšími 
+                      technologiemi pro diagnostiku a opravy osobních i užitkových vozidel.
+                    </p>
+                    
                     <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                       <div className="flex items-center gap-3 p-3 rounded-lg bg-primary/10 border border-primary/20">
                         <Check className="w-5 h-5 text-primary flex-shrink-0" />
@@ -62,6 +69,19 @@ const Hero = () => {
                         <Check className="w-5 h-5 text-primary flex-shrink-0" />
                         <span className="text-card-foreground font-medium">Osobní přístup</span>
                       </div>
+                    </div>
+                    
+                    <div className="mt-6 text-sm text-muted-foreground">
+                      <p className="mb-2">
+                        <strong>Komplexní autoservis Brno:</strong> Opravy motorů, převodovek, brzd, 
+                        elektroinstalací a klimatizací. Servis značek Škoda, Volkswagen, Audi, BMW, 
+                        Mercedes a dalších evropských vozidel.
+                      </p>
+                      <p>
+                        <strong>Moderní diagnostika:</strong> Používáme nejnovější diagnostické přístroje 
+                        pro rychlou a přesnou identifikaci závad. Autoelektrikář s certifikací pro 
+                        práci s hybridními a elektrickými vozidly.
+                      </p>
                     </div>
                   </div>
                 </div>

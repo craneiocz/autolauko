@@ -2,13 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-/* AUTO LAUKO Design System - Modern automotive service with black background and yellow accents */
+/* AUTO LAKÓ Design System - Modern automotive service with dark theme and yellow accents */
 
 @layer base {
   :root {
-    /* Primary brand colors */
-    --background: 0 0% 5%;
-    --foreground: 48 100% 50%;
+    /* Primary brand colors - Dark professional with yellow accents */
+    --background: 0 0% 3%;
+    --foreground: 0 0% 95%;
 
     /* Card and surface colors */
     --card: 0 0% 8%;
@@ -18,7 +18,7 @@
     --popover: 0 0% 8%;
     --popover-foreground: 0 0% 95%;
 
-    /* Primary yellow accent - AUTO LAUKO brand color */
+    /* Primary yellow accent - AUTO LAKÓ brand color */
     --primary: 48 100% 50%;
     --primary-foreground: 0 0% 5%;
 
@@ -49,7 +49,7 @@
     /* Design tokens */
     --radius: 0.75rem;
 
-    /* Custom gradients */
+    /* Modern gradients with dark theme */
     --gradient-primary: linear-gradient(135deg, hsl(48 100% 50%), hsl(45 100% 45%));
     --gradient-hero: linear-gradient(135deg, hsl(0 0% 5%) 0%, hsl(0 0% 8%) 50%, hsl(0 0% 5%) 100%);
     --gradient-card: linear-gradient(145deg, hsl(0 0% 8%), hsl(0 0% 12%));
