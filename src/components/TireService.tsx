@@ -30,7 +30,7 @@ const services = [
 
 const TireService = () => {
   return (
-    <section className="section-padding bg-background">
+    <section id="pneuservis" className="section-padding bg-background">
       <div className="container-custom">
         <div className="text-center mb-16">
           <div className="flex items-center justify-center gap-3 mb-6">

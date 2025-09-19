@@ -79,9 +79,9 @@ const Contact = () => {
                   <div>
                     <div className="font-medium text-card-foreground">Otevírací doba</div>
                     <div className="text-muted-foreground">
-                      Po - Pá: 7:00 - 17:00<br />
-                      So: 8:00 - 12:00<br />
-                      Ne: Zavřeno
+                      <strong>Zavolejte pro ověření dostupnosti</strong><br />
+                      Pracuji nepravidelně podle objednávek<br />
+                      <a href="tel:+420777801118" className="text-primary hover:text-accent">+420 777 801 118</a>
                     </div>
                   </div>
                 </div>

@@ -17,7 +17,7 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold text-foreground mb-4">Rychlé odkazy</h4>
             <nav className="space-y-2">
-              <a href="#sluzby" className="block text-muted-foreground hover:text-primary transition-colors">
+              <a href="#pneuservis" className="block text-muted-foreground hover:text-primary transition-colors">
                 Služby
               </a>
               <a href="#o-nas" className="block text-muted-foreground hover:text-primary transition-colors">
@@ -51,7 +51,7 @@ const Footer = () => {
               <div className="flex items-center gap-3">
                 <MapPin className="w-4 h-4 text-primary" />
                 <span className="text-muted-foreground">
-                  Průmyslová 123, Praha 5
+                  Mírová 795/40, Brno-Černovice
                 </span>
               </div>
             </div>

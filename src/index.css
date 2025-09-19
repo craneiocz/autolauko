@@ -7,8 +7,8 @@
 @layer base {
   :root {
     /* Primary brand colors */
-    --background: 0 0% 5%;
-    --foreground: 48 100% 50%;
+    --background: 0 0% 3%;
+    --foreground: 0 0% 95%;
 
     /* Card and surface colors */
     --card: 0 0% 8%;
