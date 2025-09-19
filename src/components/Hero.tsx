@@ -22,7 +22,7 @@ const Hero = () => {
               <img 
                 src={heroImage} 
                 alt="AUTO LAUKO autoservis - profesionální opravy vozidel"
-                className="w-full h-[600px] object-cover"
+                className="w-full h-[600px] object-cover object-center"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent" />
             </div>
@@ -33,10 +33,10 @@ const Hero = () => {
             {/* Logo Section */}
             <div className="text-center lg:text-left space-y-8">
               <div className="relative">
-                <h1 className="text-7xl lg:text-8xl font-black text-primary text-glow leading-none font-['Orbitron']">
+                <h1 className="text-6xl lg:text-7xl font-black text-primary text-glow leading-none font-['Bungee'] tracking-wider">
                   AUTO
                 </h1>
-                <h1 className="text-7xl lg:text-8xl font-black text-foreground leading-none -mt-4 font-['Orbitron']">
+                <h1 className="text-6xl lg:text-7xl font-black text-foreground leading-none -mt-3 font-['Bungee'] tracking-wider">
                   LAKÓ
                 </h1>
                 <div className="absolute -top-2 -right-8 w-20 h-1 bg-primary rounded-full animate-glow-pulse" />
