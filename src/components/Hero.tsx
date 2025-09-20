@@ -21,7 +21,7 @@ const Hero = () => {
             <div className="relative overflow-hidden rounded-2xl">
               <img 
                 src={heroImage} 
-                alt="AUTO LAUKO autoservis - profesionální opravy vozidel"
+                alt="AUTO LAUKÓ autoservis - profesionální opravy vozidel"
                 className="w-full h-[600px] object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent" />
@@ -37,7 +37,7 @@ const Hero = () => {
                   AUTO
                 </h1>
                 <h1 className="text-7xl lg:text-8xl font-black text-foreground leading-none -mt-4 font-['Orbitron']">
-                  LAKÓ
+                  LAUKÓ
                 </h1>
                 <div className="absolute -top-2 -right-8 w-20 h-1 bg-primary rounded-full animate-glow-pulse" />
               </div>

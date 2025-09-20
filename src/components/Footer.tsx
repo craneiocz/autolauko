@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-2xl font-bold text-primary mb-4">AUTO LAUKO</h3>
+            <h3 className="text-2xl font-bold text-primary mb-4">AUTO LAUKÓ</h3>
             <p className="text-muted-foreground mb-4">
               Profesionální autoservis s moderním vybavením a osobním přístupem ke každému zákazníkovi.
             </p>
@@ -60,7 +60,7 @@ const Footer = () => {
 
         <div className="border-t border-border mt-8 pt-8 text-center">
           <p className="text-muted-foreground">
-            © 2024 AUTO LAUKO. Všechna práva vyhrazena.
+            © 2024 AUTO LAUKÓ. Všechna práva vyhrazena.
           </p>
         </div>
       </div>
