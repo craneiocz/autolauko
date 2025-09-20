@@ -37,7 +37,7 @@ const Hero = () => {
                   AUTO
                 </h1>
                 <h1 className="text-6xl lg:text-7xl font-black text-foreground leading-none -mt-3 font-['Bungee'] tracking-wider">
-                  LAKÓ
+                  LAUKÓ
                 </h1>
                 <div className="absolute -top-2 -right-8 w-20 h-1 bg-primary rounded-full animate-glow-pulse" />
               </div>
@@ -131,6 +131,7 @@ const Hero = () => {
                   <Button 
                     size="lg" 
                     className="bg-primary hover:bg-accent text-primary-foreground font-semibold animate-glow-pulse group cursor-pointer"
+                    onClick={() => window.location.href = 'tel:+420777801118'}
                   >
                     <Phone className="w-4 h-4 mr-2" />
                     +420 777 801 118

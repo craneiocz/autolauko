@@ -9,7 +9,7 @@ const Header = () => {
           <div className="flex items-center gap-3">
             <img src={logoAuto} alt="AUTO LAUKO logo" className="h-12 w-auto" />
             <div className="text-2xl font-bold text-primary text-glow font-['Orbitron']">
-              AUTO LAKÓ
+              AUTO LAUKÓ
             </div>
           </div>
           

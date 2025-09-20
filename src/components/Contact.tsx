@@ -78,18 +78,21 @@ const Contact = () => {
                   </div>
                   <div>
                     <div className="font-medium text-card-foreground">Otevírací doba</div>
-                    <div className="text-muted-foreground">
-                      <strong>Zavolejte pro ověření dostupnosti</strong><br />
-                      Pracuji nepravidelně podle objednávek<br />
-                      <a href="tel:+420777801118" className="text-primary hover:text-accent">+420 777 801 118</a>
-                    </div>
+                     <div className="text-muted-foreground">
+                       <strong>Zavolejte pro ověření dostupnosti</strong><br />
+                       Pracuji nepravidelně podle objednávek<br />
+                       <a href="tel:+420777801118" className="text-primary hover:text-accent">+420 777 801 118</a>
+                     </div>
                   </div>
                 </div>
               </div>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button className="bg-primary hover:bg-accent text-primary-foreground font-semibold cursor-pointer">
+              <Button 
+                className="bg-primary hover:bg-accent text-primary-foreground font-semibold cursor-pointer"
+                onClick={() => window.location.href = 'tel:+420777801118'}
+              >
                 Objednat termín
               </Button>
             </div>
