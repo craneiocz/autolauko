@@ -12,7 +12,7 @@ const services = [
     icon: Shield,
     title: 'Opravy pneumatik',
     description: 'Opravy defektů a poškození pneumatik pomocí moderních technologií',
-    features: ['Bezdušové pneumatiky', 'Záplaty', 'Vulkanizace'],
+    features: ['Bezdušové pneumatiky', 'Záplaty'],
   },
   {
     icon: Wrench,
