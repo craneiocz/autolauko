@@ -32,7 +32,7 @@ const About = () => {
             O našem autoservisu
           </h2>
           <p className="text-xl text-muted-foreground leading-relaxed">
-            AUTO LAUKO je moderní autoservis zaměřený na komplexní péči o vaše vozidlo. 
+            AUTO LAUKÓ je moderní autoservis zaměřený na komplexní péči o vaše vozidlo. 
             Nabízíme profesionální služby s důrazem na kvalitu, rychlost a osobní přístup 
             ke každému zákazníkovi. Naše dílna je vybavena nejmodernější diagnostikou 
             a náš tým má bohaté zkušenosti s opravami všech značek vozidel.

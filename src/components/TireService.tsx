@@ -96,6 +96,7 @@ const TireService = () => {
             <Button 
               size="lg" 
               className="bg-primary hover:bg-accent text-primary-foreground font-semibold group cursor-pointer"
+              onClick={() => window.location.href = 'tel:+420777801118'}
             >
               <Car className="w-4 h-4 mr-2" />
               Objednat pneuservis
