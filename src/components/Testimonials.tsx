@@ -18,13 +18,13 @@ const testimonials = [
   {
     name: 'Tomáš Procházka',
     text: 'Skvělá diagnostika, našli závadu kterou jinde neodhalili. Doporučujem všem!',
-    rating: 5,
+    rating: 4,
     vehicle: 'Audi A4'
   },
   {
     name: 'Jana Králová',
-    text: 'Milý personál, vysvětlí vše srozumitelně a ceny jsou rozumné. Velmi spokojená.',
-    rating: 5,
+    text: 'Milý personál, vysvětlí vše srozumitelně a ceny jsou rozumné.',
+    rating: 4,
     vehicle: 'Ford Focus'
   }
 ];
