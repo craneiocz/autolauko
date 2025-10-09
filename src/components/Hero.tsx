@@ -50,7 +50,7 @@ const Hero = () => {
                       Profesionální autoservis s moderním vybavením
                     </h2>
                     <p className="text-muted-foreground mb-6 text-lg leading-relaxed">
-                      V AUTO LAKÓ nabízíme komplexní služby pro váš automobil v Brně-Černovicích. 
+                      V AUTO LAUKÓ nabízíme komplexní služby pro váš automobil v Brně-Černovicích. 
                       Specializujeme se na servis všech značek vozidel, diagnostiku moderních motorů, 
                       přípravu na STK a technické prohlídky. Naše dílna je vybavena nejmodernějšími 
                       technologiemi pro diagnostiku a opravy osobních i užitkových vozidel.

@@ -9,8 +9,12 @@ const Header = () => {
           <div className="flex items-center gap-3">
             <img src={logoAuto} alt="AUTO LAUKO logo" className="h-12 w-auto" />
             <div className="text-2xl font-bold text-primary text-glow font-['Orbitron']">
-              AUTO LAUKÓ
+              AUTO
             </div>
+            <div className="text-2xl font-bold text-foreground text-glow font-['Orbitron']">
+              LAUKÓ
+            </div>			
+
           </div>
           
           <nav className="hidden md:flex items-center gap-8">
