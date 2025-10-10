@@ -35,10 +35,10 @@ const Hero = () => {
               <div className="relative">
                 <span className="text-6xl lg:text-7xl font-black text-primary text-glow leading-none font-['Orbitron']">
                   AUTO
-                </h1>
+                </span>
                 <span className="text-6xl lg:text-7xl font-black text-foreground leading-none -mt-3 font-['Orbitron']">
                   LAUKÓ
-                </h1>
+                </span>
                 <div className="absolute -top-2 -right-8 w-20 h-1 bg-primary rounded-full animate-glow-pulse" />
               </div>
               
